@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: linear-gradient(#8338ec, #3f87a6);
+}
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.card2 {
+    margin-left: -2em;
+}
+.card3 {
+    margin-left: -2em;
+}
+.card4 {
+    margin-left: -2em;
+}
+.card5 {
+    margin-left: -2em;
+}
+div {
+    width: 230px;
+    height: 320px;
+    border: 2px solid #e76f51;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+    background-color: black;
+    box-shadow: -5px 0 3px 0 #6c757d;
+    font-size: 3em;
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+div:hover {
+    transform: rotate( -5deg );
+    margin-right: 3em;
+}
+
+div:first-child {
+    box-shadow: none;
+}
+div:last-child:hover {
+    transform: rotate( -5deg );
+    margin: 0;
+}
